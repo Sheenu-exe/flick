@@ -75,7 +75,7 @@ export const Chat = ({ room }) => {
             className="new-message-input input w-full max-w-xs"
             placeholder="Type your message here..." />
           <button type="submit" className="btn btn-neutral ml-5">
-            <SendHorizontal />
+            <SendHorizontal fill="currentColor" />
           </button>
         </form></>
   );
